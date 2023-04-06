@@ -1,3 +1,2 @@
-str1 = 'A';
-str2 = 'A';
-console.log(str1 === str2);
+const arr = new Set([1, 2, 3, 4]);
+console.log(arr);
