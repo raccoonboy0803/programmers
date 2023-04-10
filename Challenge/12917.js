@@ -11,4 +11,4 @@ const solution = (s) => {
 };
 console.log(solution('Zbcdefg'));
 console.log('a' === 'A'); //return false / Js는 대소문자 구분
-console.log('b' > 'Z');
+console.log('b' > 'Z'); //return true / 모든 대문자는 소문자 보다 작다
