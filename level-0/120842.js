@@ -10,7 +10,7 @@ const solution = (num_list, n) => {
   let newArr = Array.from(new Array(num_list.length / n), () =>
     new Array(n).fill()
   );
-
+  console.log('newArr : ', newArr);
   let i = 0;
   newArr.map((a, index) => {
     a.map((b, j) => {
@@ -18,6 +18,7 @@ const solution = (num_list, n) => {
       i++;
     });
   });
+  // console.log('num_list: ', num_list);
   return newArr;
 };
 console.log(solution([1, 2, 3, 4, 5, 6, 7, 8], 2));
