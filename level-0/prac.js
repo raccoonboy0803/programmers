@@ -31,8 +31,8 @@
 //1차원배열에 대해서는 깊은 복사가 허용되나
 //2차원 이상의 배열부터는 깊은복사 ❌
 
-let arr = [[1, 2, 3, 4, 5]];
-let arr2 = Array.from(arr);
-arr2[0][0] = 10;
-console.log('arr:', arr);
-console.log('arr2:', arr2);
+// let arr = [[1, 2, 3, 4, 5]];
+// let arr2 = Array.from(arr);
+// arr2[0][0] = 10;
+// console.log('arr:', arr);
+// console.log('arr2:', arr2);
