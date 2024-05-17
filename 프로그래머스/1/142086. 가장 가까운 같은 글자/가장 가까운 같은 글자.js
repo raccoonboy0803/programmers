@@ -6,7 +6,7 @@ function solution(s) {
     if (splitS.indexOf(item) === index) {
       result.push(-1);
     } else {
-      for (let i = 0; i < splitS.length; i++) {
+      for (let i = 0; i < index; i++) {
         if (index === i) break;
         if (splitS[i] === item) {
           findIndex = i;
