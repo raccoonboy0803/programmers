@@ -4,7 +4,7 @@ function solution(number, limit, power) {
   for (let i = 1; i <= number; i++) {
     divisorsArr.push(getDivisors(i).length);
   }
-  console.log('divisorsArr::', divisorsArr);
+
   divisorsArr.forEach((divisor) => {
     if (divisor > limit) {
       result += power;
